@@ -1,0 +1,10 @@
+{
+  "name": "scholarship-connect-bd-root",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd mobile && npm install --legacy-peer-deps && npm run build:web",
+    "dev": "cd mobile && npm run dev",
+    "backend": "cd backend && venv\\Scripts\\python.exe manage.py runserver 0.0.0.0:8000",
+    "mobile": "cd mobile && npm run android"
+  }
+}
