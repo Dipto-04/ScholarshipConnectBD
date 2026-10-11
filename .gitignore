@@ -1,0 +1,115 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+ios/
+android/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# Backend (Django)
+backend/venv/
+backend/.env
+__pycache__/
+*.py[cod]
+*$py.class
+db.sqlite3
+backend/media/
+backend/staticfiles/
+backend/firebase-service-account.json
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+mobile/.env
+mobile/.env.local
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+lint_errors.json
+*.diff
+*.patch
+patch.diff
+
+# Native Build Artifacts
+mobile/android/app/build/
+mobile/android/.gradle/
+mobile/android/local.properties
+mobile/android/GeneratedPluginRegistrant.java
+mobile/android/app/src/main/assets/
+mobile/android/app/debug/
+mobile/android/app/release/
+*.apk
+*.aab
+
+# Google Services
+google-services.json
+mobile/google-services.json
+mobile/app/google-services.json
+mobile/android/app/google-services.json
+
+# IDEs
+.vscode/
+.idea/
+.claude/
+.project
+.classpath
+.settings/
+*.iml
+*.ipr
+*.iws
+
+# Backups and zips
+*.zip
+*.tar.gz
+*.rar
+backend.zip
+
+# Local tracking
+FRONTEND.md
+REQUIRED_CAPITAL.md
+REPORT.md
+DOCUMENTATION.md
+CHANGES.md
+AI_MATCHMAKER.md
+BUSINESS_PLAN.md
+LAYOUT_DOCUMENTATION.md
+erdigram.md
+backend/.expo/README.md
+mobile/app/ai-tools/aitool.md
+mobile/components/COMPONENTS.md
+
+# Debug/Utility Scripts & Temporary Files
+backend/check_images.py
+backend/cleanup_chat.py
+backend/clear_demo_data.py
+backend/debug_profiles.py
+backend/fix_profiles.py
+backend/fix_scholarships.py
+backend/populate_admin_data.py
+backend/test_online_image.py
+backend/error*.html
+index.html
+mobile/scripts/reset-project.js
+mobile/scripts/update_colors.js
+mobile/node_modules_old/
