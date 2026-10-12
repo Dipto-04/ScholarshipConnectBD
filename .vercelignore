@@ -1,0 +1,7 @@
+backend/
+android/
+ios/
+.expo/
+node_modules/
+*.apk
+*.jks
