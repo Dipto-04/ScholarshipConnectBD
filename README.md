@@ -33,7 +33,7 @@ ScholarshipConnect BD aims to provide a centralized platform where students can 
 
 ### Frontend
 
-* React.js
+* Next.js ( Typescript )
 * HTML5
 * CSS3
 * Bootstrap
